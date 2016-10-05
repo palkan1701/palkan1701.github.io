@@ -1,3 +1,17 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 .wrapper {
     margin:  40px 30px;
     border: 3px solid #262626;
@@ -9,7 +23,7 @@
     margin: 100px auto 100px;
     max-width: 400px;
     padding: 5px 10px; 
-    border: 2px solid #262626;
+    border: 2px solid #808080;
     
 }
 .greeting__label {
@@ -26,7 +40,6 @@
 .greeting__top-decoration{
     position: absolute;
     background-color: white;
-    max-width: 120px;
     top:-11px;
     left: 50%;
     font-weight: bold;
@@ -35,36 +48,44 @@
     line-height: 20px;
     text-align: center;
     padding: 0 20px;
+    color: #808080;
 }
 .perfomance {
     max-height: 600px;
-    background-color: #1AC0AE;
+    /*background-color: #1AC0AE;*/
     position: relative;
     
     
 }
 .perfomance_img{
     width: 20%;
-    margin: 20px auto 5px 50px;
+    float: left;
+    /*background-color: #E4CD0A;*/
+    margin: 5px;
+    margin-left: 20px;
+
+
 }
 .perfomance_table{
     display: inline-block;
-    margin: 0 0 0 30px;
+    margin: 5px;
     width: 30%;
+    float: left;
+    border-collapse: collapse;
+    /*background-color: #04D256;  */
     
 }
-.perfomance__row{
-    border-bottom: 2px solid #c8c8c8;
-    padding: 5px;
+.perfomance__colums{
+    border-bottom: 3px solid #c8c8c8;
+    padding: 5px 0;
     font-family: "Trebuchet MS"
 }
 .perfomance__profile {
-    margin-left: 20px;
-    top:-60px;
     position: relative;
-    display: inline-block;
-    background-color: #D98989;
-    width: 50%;
+    /*background-color: #D98989;*/
+    width: 42%;
+    float: left;
+    margin: 5px;
 
 }
 .perfomance__profile-title {
@@ -72,6 +93,15 @@
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
-
+}
+.perfomance__profile-description {
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: #808080;
+}
+.expirience_block {
+    min-height: 400px;
+    background-color: grey;
 
 }
+
