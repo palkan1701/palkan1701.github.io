@@ -24,6 +24,7 @@
     max-width: 400px;
     padding: 5px 10px; 
     border: 2px solid #808080;
+    white-space: nowrap; 
     
 }
 .greeting__label {
@@ -36,10 +37,13 @@
     transform: scale;
     text-transform: uppercase;
     letter-spacing: 80%;
+   
+    
 }
 .greeting__top-decoration{
-    position: relative;
+    position: absolute;
     background-color: white;
+    display: inline-block;
     top:-11px;
     left: 50%;
     font-weight: bold;
@@ -49,8 +53,10 @@
     text-align: center;
     padding: 0 20px;
     color: #808080;
-    min-width: 40%;
-    /*max-width: 1000px;*/
+    max-width: 350px;
+    overflow: hidden;
+     text-overflow: ellipsis;
+    
     
 }
 .perfomance {
