@@ -38,7 +38,7 @@
     letter-spacing: 80%;
 }
 .greeting__top-decoration{
-    position: relative;
+    position: absolute;
     background-color: white;
     top:-11px;
     left: 50%;
@@ -49,9 +49,6 @@
     text-align: center;
     padding: 0 20px;
     color: #808080;
-    min-width: 40%;
-    /*max-width: 1000px;*/
-    
 }
 .perfomance {
     max-height: 600px;
