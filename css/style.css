@@ -1,16 +1,21 @@
+
 .clearfix:after {
-     display: block;
-     visibility: hidden;
-     font-size: 0;
-     height: 0;
-     content: " ";
-     clear: both;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+    content: " ";
+    clear: both;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix { 
+    height: 1%;
+}
+.clearfix { 
+    display: block;
+}
 
 .wrapper {
     /* Display & Box Model */
