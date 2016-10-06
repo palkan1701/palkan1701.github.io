@@ -1,10 +1,10 @@
 .clearfix:after {
-     visibility: hidden;
      display: block;
+     visibility: hidden;
      font-size: 0;
+     height: 0;
      content: " ";
      clear: both;
-     height: 0;
      }
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
@@ -13,13 +13,16 @@
 /* close commented backslash hack */
 
 .wrapper {
-    margin:  40px 30px;
+    /* Display & Box Model */
     border: 3px solid #262626;
-    min-height: 1400px;
     border-radius: 1px;
+    margin:  40px 30px;
+    min-height: 1400px;
 }
 .greeting__box {
+    /* Positioning */
     position: relative;
+    /* Display & Box Model */
     margin: 100px auto 100px;
     max-width: 400px;
     padding: 5px 10px; 
@@ -28,88 +31,106 @@
     
 }
 .greeting__label {
-    text-align: center;
+    /* Positioning */
+    position: relative;
+    /* Display & Box Model */
     padding-top: auto;
+    /*Text*/
+    text-transform: uppercase;
+    text-align: center;
     font-size:40px; 
     font-family: "Trebuchet MS";
-    position: relative;
     font-weight: bold;
     transform: scale;
-    text-transform: uppercase;
     letter-spacing: 80%;
    
     
 }
 .greeting__top-decoration{
-    position: absolute;
-    background-color: white;
-    display: inline-block;
+    /* Positioning */
+    position: relative;
     top:-11px;
     left: 50%;
-    font-weight: bold;
     transform: translateX(-50%);
-    text-transform: uppercase;
-    line-height: 20px;
-    text-align: center;
+    /* Display & Box Model */
+    display: inline-block;
     padding: 0 20px;
-    color: #808080;
-    max-width: 350px;
     overflow: hidden;
-     text-overflow: ellipsis;
+    max-width: 300px;
+    /*Color*/
+    background-color: white;
+    color: #808080;
+    /*Text*/
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-overflow: ellipsis;
     
     
 }
 .perfomance {
-    max-height: 600px;
-    /*background-color: #1AC0AE;*/
+    /* Positioning */
     position: relative;
+    /* Display & Box Model */
+    max-height: 600px;
     
     
 }
 .perfomance_img{
+    /* Positioning */
     width: 20%;
     float: left;
-    /*background-color: #E4CD0A;*/
     margin: 5px;
     margin-left: 20px;
 
 
 }
 .perfomance_table{
+    /* Positioning */
+    float: left;
+    /* Display & Box Model */
     display: inline-block;
     margin: 5px;
     width: 30%;
-    float: left;
     border-collapse: collapse;
-    /*background-color: #04D256;  */
     
 }
 .perfomance__colums{
+    /* Display & Box Model */
     border-bottom: 3px solid #c8c8c8;
     padding: 5px 0;
+    /*Text*/
     font-family: "Trebuchet MS"
 }
 .perfomance__profile {
+    /* Positioning */
     position: relative;
-    /*background-color: #D98989;*/
-    width: 42%;
     float: left;
+    /* Display & Box Model */
+    width: 42%;
     margin: 5px;
 
 }
 .perfomance__profile-title {
+    /* Display & Box Model */
     display: inline-block;
+    /*Text*/
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
 }
 .perfomance__profile-description {
+    /*Color*/
+    color: #808080;
+    /*Text*/
     font-family: "Trebuchet MS";
     font-weight: bold;
-    color: #808080;
 }
 .expirience_block {
+    /* Display & Box Model */
     min-height: 400px;
+    /*Color*/
     background-color: grey;
 
 }
