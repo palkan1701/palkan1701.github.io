@@ -7,16 +7,6 @@
     content: " ";
     clear: both;
 }
-.clearfix {
-    display: inline-block;
-}
-* html .clearfix { 
-    height: 1%;
-}
-.clearfix { 
-    display: block;
-}
-
 .wrapper {
     /* Display & Box Model */
     border: 3px solid #262626;
@@ -53,25 +43,25 @@
 }
 .greeting__top-decoration{
     /* Positioning */
+    left: 50%;
     position: relative;
     top:-15px;
-    left: 50%;
     transform: translateX(-50%);
     /* Display & Box Model */
     display: inline-block;
-    padding: 0 20px;
-    overflow: hidden;
     max-width: 300px;
+    overflow: hidden;
+    padding: 0 20px;
     /*Color*/
     background-color: white;
     color: #808080;
     /*Text*/
+    font-size: 16px;
     font-weight: bold;
     line-height: 20px;
-    text-transform:uppercase;
     text-align: center;
     text-overflow: ellipsis;
-    /*font-size: 15px;*/
+    text-transform:uppercase;
     
     
 }
@@ -141,11 +131,11 @@
 }
 .expirience__place {
     /* Positioning */
+    position: relative;
     float: left;
     /* Display & Box Model */
-    height: 30%;
-    padding: 10px;
-    width: 30%;
+    min-height: 100px;
+    width: 25%;
     /*Color*/
     background-color: yellow;
 }
@@ -160,30 +150,68 @@
 }
 
 .expirience__tnen-month {
+    /* Positioning */
+    /*position: absolute;*/
+    /*Color*/
+    background-color: white;
+    color: #808080;
     /*Text*/
-    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
     text-align: center;
-    font-family: "Trebuchet MS";
-    transform: scale;
+    text-overflow: ellipsis;
+    text-transform:uppercase;
+    font-family: "Trebuchet MS"; 
     letter-spacing: 80%;
-    font-size: 15px;
+    transform: scale;
+    /*Text*/
 }
 .expirience__then-year {
+    /* Display & Box Model */
+    display: inline-block;
     /*Text*/
-    text-transform: uppercase;
-    text-align: center;
     font-family: "Trebuchet MS";
-    transform: scale;
-    letter-spacing: 80%;
     font-size: 40px;
+    letter-spacing: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    transform: scale;
 }
-.expirience__description-label {
+.expirience__then-present {
+    /* Display & Box Model */
+    display: inline-block;
+    /*Text*/
+    font-family: "Trebuchet MS";
+    font-size: 40px;
+    letter-spacing: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    transform: scale;
+    /*Color*/
+    background-color: brown;
+}
+.expirience__jobdescription {
     /* Positioning */
     float: left;
     /* Display & Box Model */
-    height: 30%;
-    padding: 10px;
-    width: 30%
+    height: 100px;
+    /*padding: 10px;*/
+    
+    width: 75%;
     /*Color;*/
     background-color: green;
 }
+.expirience__jobdescription-label {
+    /* Positioning */
+    float: left;
+    /* Display & Box Model */
+    display: inline;
+    /*Color;*/
+    background-color: lightcyan;
+    /*Text*/
+    font-size: 35px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
