@@ -204,7 +204,7 @@
 }
 .expirience__jobdescription-label {
     /* Positioning */
-    float: left;
+
     /* Display & Box Model */
     display: inline;
     /*Color;*/
@@ -215,3 +215,7 @@
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
+}
+.expirience__jobdescription-duties {
+    
+}
