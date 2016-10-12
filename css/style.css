@@ -42,9 +42,10 @@
     
 }
 .greeting__top-decoration{
+
     /* Positioning */
+    position: absolute;
     left: 50%;
-    position: relative;
     top:-15px;
     transform: translateX(-50%);
     /* Display & Box Model */
@@ -53,6 +54,8 @@
     overflow: hidden;
     padding: 0 20px;
     /*Color*/
+
+
     background-color: white;
     color: #808080;
     /*Text*/
@@ -62,8 +65,6 @@
     text-align: center;
     text-overflow: ellipsis;
     text-transform:uppercase;
-    
-    
 }
 .perfomance {
     /* Positioning */
