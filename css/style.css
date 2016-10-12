@@ -125,24 +125,30 @@
 }
 .expirience_block {
     /* Display & Box Model */
-    min-height: 400px;
+    display: flex;
+    align-items: center;
     /*Color*/
     background-color: grey;
 }
 .expirience__place {
     /* Positioning */
     position: relative;
-    float: left;
+    flex: 1;
+    justify-content: space-around;
     /* Display & Box Model */
-    min-height: 100px;
-    width: 25%;
+    display: flex;
+    
+
+    
     /*Color*/
     background-color: yellow;
 }
 .expirience__then {
     /* Positioning */
     float: left;
+    flex-direction: column;
     /* Display & Box Model */
+    display: flex;
     margin: 0 0 0 40px;
     /*Color*/
     background-color: red;
@@ -152,6 +158,7 @@
 .expirience__tnen-month {
     /* Positioning */
     /*position: absolute;*/
+    right: 50%;
     /*Color*/
     background-color: white;
     color: #808080;
@@ -165,6 +172,7 @@
     font-family: "Trebuchet MS"; 
     letter-spacing: 80%;
     transform: scale;
+    
     /*Text*/
 }
 .expirience__then-year {
@@ -193,12 +201,13 @@
 }
 .expirience__jobdescription {
     /* Positioning */
-    float: left;
+    flex: 2;
     /* Display & Box Model */
-    height: 100px;
-    /*padding: 10px;*/
+
     
-    width: 75%;
+    padding: 10px;
+    
+    
     /*Color;*/
     background-color: green;
 }
