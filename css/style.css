@@ -1,4 +1,3 @@
-
 .clearfix:after {
     display: block;
     visibility: hidden;
@@ -6,6 +5,7 @@
     height: 0;
     content: " ";
     clear: both;
+
 }
 .wrapper {
     /* Display & Box Model */
@@ -67,32 +67,41 @@
 }
 .perfomance {
     /* Positioning */
-    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
     /* Display & Box Model */
-    max-height: 600px;
+    background-color: #89FF9C;
+}
     
-    
+.perfomance__data {
+    display: flex;
+    flex: 1 1 1400px; 
+    background-color: #FC8989;
 }
 .perfomance_img{
     /* Positioning */
-    width: 20%;
-    float: left;
-    margin: 5px;
-    margin-left: 45px;
+    width: 300px;
+    height: 300px;
+
+    
 
 
 }
-.perfomance_table{
+.perfomance__table{
     /* Positioning */
-    float: left;
+    
     /* Display & Box Model */
-    display: inline-block;
-    margin: 5px;
-    width: 30%;
+    display: flex;
     border-collapse: collapse;
+    flex-flow: column wrap; 
+    justify-content: space-between;
     
 }
-.perfomance__colums{
+.perfomance__line {
+    display: flex;
+    justify-content: space-between;
+}
+.perfomance__columns{
     /* Display & Box Model */
     border-bottom: 3px solid #c8c8c8;
     padding: 5px 0;
@@ -101,11 +110,11 @@
 }
 .perfomance__profile {
     /* Positioning */
-    position: relative;
-    float: left;
+    
+    
     /* Display & Box Model */
-    width: 42%;
-    margin: 5px;
+    /*display: flex;*/
+    flex-flow: column wrap;
 
 }
 .perfomance__profile-title {
@@ -127,16 +136,18 @@
     /* Display & Box Model */
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
     /*Color*/
     background-color: grey;
 }
 .expirience__place {
     /* Positioning */
     position: relative;
-    flex: 1;
-    justify-content: space-around;
+    justify-content: center;
     /* Display & Box Model */
     display: flex;
+    align-items: stretch;
+    flex: 1 4 400px;
     
 
     
@@ -145,13 +156,13 @@
 }
 .expirience__then {
     /* Positioning */
-    float: left;
+    
     flex-direction: column;
     /* Display & Box Model */
     display: flex;
-    margin: 0 0 0 40px;
     /*Color*/
     background-color: red;
+    flex-wrap: nowrap;
 
 }
 
@@ -188,7 +199,9 @@
 }
 .expirience__then-present {
     /* Display & Box Model */
-    display: inline-block;
+    display: inline-flex;
+    align-items: flex-end;
+
     /*Text*/
     font-family: "Trebuchet MS";
     font-size: 40px;
@@ -196,6 +209,7 @@
     text-align: center;
     text-transform: uppercase;
     transform: scale;
+
     /*Color*/
     background-color: brown;
 }
@@ -204,7 +218,7 @@
     flex: 2;
     /* Display & Box Model */
 
-    
+    flex: 18 1 750px;
     padding: 10px;
     
     
