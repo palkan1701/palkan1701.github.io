@@ -71,6 +71,7 @@
     flex-flow: row nowrap;
     /* Display & Box Model */
     background-color: #89FF9C;
+    margin: 0 5% 0 5%;
 }
     
 .perfomance__data {
@@ -78,24 +79,33 @@
     flex: 1 1 1400px; 
     background-color: #FC8989;
 }
-.perfomance_img{
+.perfomance__image{
+    padding: 1%;
+    background-color: red;
+}
+.perfomance__img {
     /* Positioning */
     width: 300px;
     height: 300px;
-
-    
-
-
 }
 .perfomance__table{
     /* Positioning */
-    
+    margin: 1%;    
     /* Display & Box Model */
     display: flex;
     border-collapse: collapse;
     flex-flow: column wrap; 
     justify-content: space-between;
+    /*color*/
+    background-color: green;
+}
+.perfomance__profile {
+    /* Positioning */
     
+    
+    /* Display & Box Model */
+    flex-flow: column wrap;
+
 }
 .perfomance__line {
     display: flex;
@@ -107,15 +117,6 @@
     padding: 5px 0;
     /*Text*/
     font-family: "Trebuchet MS"
-}
-.perfomance__profile {
-    /* Positioning */
-    
-    
-    /* Display & Box Model */
-    /*display: flex;*/
-    flex-flow: column wrap;
-
 }
 .perfomance__profile-title {
     /* Display & Box Model */
@@ -137,6 +138,7 @@
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0 5% 5% 5%;
     /*Color*/
     background-color: grey;
 }
@@ -163,6 +165,7 @@
     /*Color*/
     background-color: red;
     flex-wrap: nowrap;
+    margin: 0 2%;
 
 }
 
@@ -201,7 +204,7 @@
     /* Display & Box Model */
     display: inline-flex;
     align-items: flex-end;
-
+    margin: 0 2%;
     /*Text*/
     font-family: "Trebuchet MS";
     font-size: 40px;
@@ -229,15 +232,19 @@
     /* Positioning */
 
     /* Display & Box Model */
-    display: inline;
+    display: block;
     /*Color;*/
     background-color: lightcyan;
     /*Text*/
     font-size: 35px;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
+}
+.expirience__jobdescription-post {
+    text-align: center;
+    background-color: #FF9090
 }
 .expirience__jobdescription-duties {
     
