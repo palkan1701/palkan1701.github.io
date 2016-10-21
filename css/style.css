@@ -18,7 +18,7 @@
     /* Positioning */
     position: relative;
     /* Display & Box Model */
-    margin: 100px auto 100px;
+    margin: 8% auto 8%;
     max-width: 400px;
     padding: 5px 10px; 
     border: 2px solid #808080;
@@ -29,7 +29,6 @@
     /* Positioning */
     position: relative;
     /* Display & Box Model */
-    padding-top: auto;
     /*Text*/
     text-transform: uppercase;
     text-align: center;
@@ -44,8 +43,8 @@
 .greeting__top-decoration{
     /* Positioning */
     left: 50%;
-    position: relative;
-    top:-15px;
+    position: absolute;
+    top:-11px;
     transform: translateX(-50%);
     /* Display & Box Model */
     display: inline-block;
@@ -68,8 +67,10 @@
 .perfomance {
     /* Positioning */
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
     /* Display & Box Model */
+    align-items: center;
     background-color: #89FF9C;
     margin: 0 5% 0 5%;
 }
@@ -105,6 +106,9 @@
     
     /* Display & Box Model */
     flex-flow: column wrap;
+    flex: 1 1 500px;
+    /*color */
+    background-color: purple;
 
 }
 .perfomance__line {
