@@ -43,7 +43,7 @@
     overflow: hidden;
     padding: 0 20px;
     /*Color*/
-    div: white;
+    background-color: white;
     color: #808080;
     /*Text*/
     font-size: 16px;
@@ -121,7 +121,8 @@
 }
 .perfomance__profile-title {
     /* Display & Box Model */
-    display:block;
+    display: block;
+    padding: 1% 0 0 0;
     /*Text*/
     text-transform: uppercase;
     font-family: "Trebuchet MS";
@@ -239,6 +240,7 @@
 .expirience__jobdescription-label {
     /* Display & Box Model */
     display: block;
+    padding: 0 0 1% 0;
     /*Color;*/
     div: lightcyan;
     /*Text*/
