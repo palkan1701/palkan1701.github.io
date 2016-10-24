@@ -60,7 +60,7 @@
     line-height: 20px;
     text-align: center;
     text-overflow: ellipsis;
-    text-transform:uppercase;
+    text-transform: uppercase;
     
     
 }
@@ -70,7 +70,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     /* Display & Box Model */
-    align-items: center;
+    align-items: flex-start;
     background-color: #89FF9C;
     margin: 0 8% 0 8%;
 }
@@ -81,7 +81,7 @@
     background-color: #FC8989;
 }
 .perfomance__image{
-    padding: 1%;
+    padding: 2%;
     background-color: red;
 }
 .perfomance__img {
@@ -91,8 +91,9 @@
 }
 .perfomance__table{
     /* Positioning */
-    margin: 1%;    
+    margin: 2%;    
     /* Display & Box Model */
+    height: 300px;
     display: flex;
     border-collapse: collapse;
     flex-flow: column wrap; 
@@ -105,10 +106,13 @@
     
     
     /* Display & Box Model */
+    padding-left: 2%;
     flex-flow: column wrap;
-    flex: 1 1 500px;
+    flex: 2 1 500px;
     /*color */
     background-color: purple;
+    /*text*/
+
 
 }
 .perfomance__line {
@@ -127,11 +131,13 @@
 }
 .perfomance__profile-title {
     /* Display & Box Model */
-    display: inline-block;
+    display:block;
     /*Text*/
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
+    font-size: 25px;
+    text-align: center;
 }
 .perfomance__profile-text {
     /*Color*/
@@ -139,6 +145,9 @@
     /*Text*/
     font-family: "Trebuchet MS";
     font-weight: bold;
+}
+.expirience{
+    display: flex;
 }
 .expirience_block {
     /* Display & Box Model */
@@ -149,14 +158,21 @@
     /*Color*/
     background-color: grey;
 }
+.expirience_time {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    /*height: 140px;*/
+    flex: 1 4 400px;
+}
 .expirience__place {
     /* Positioning */
     position: relative;
     justify-content: center;
     /* Display & Box Model */
     display: flex;
-    align-items: stretch;
-    flex: 1 4 400px;
+    align-items: flex-end;
+    flex: 1 4;
     
 
     
@@ -229,7 +245,6 @@
     /* Display & Box Model */
 
     flex: 18 1 750px;
-    padding: 10px;
     
     
     /*Color;*/
@@ -250,9 +265,14 @@
     font-weight: bold;
 }
 .expirience__jobdescription-post {
+    padding: 1.5%;
     text-align: center;
     background-color: #FF9090
 }
 .expirience__jobdescription-duties {
-    
+    /*Color*/
+    color: #808080;
+    /*Text*/
+    font-family: "Trebuchet MS";
+    font-weight: bold;
 }
