@@ -62,7 +62,6 @@
     justify-content: space-around;
     /* Display & Box Model */
     align-items: flex-start;
-    div: #89FF9C;
     margin: 0 8% 0 8%;
 }
     
@@ -70,12 +69,10 @@
     /* Display & Box Model */
     display: flex;
     flex: 1 1 1400px; 
-    div: #FC8989;
 }
 .perfomance__image{
     /* Display & Box Model */
     padding: 2%;
-    div: red;
 }
 .perfomance__img {
     /* Positioning */
@@ -92,7 +89,6 @@
     flex-flow: column wrap; 
     justify-content: space-between;
     /*color*/
-    div: green;
 }
 .perfomance__profile {
     /* Display & Box Model */
@@ -100,7 +96,6 @@
     flex-flow: column wrap;
     flex: 2 1 500px;
     /*color */
-    div: purple;
     /*text*/
 
 
@@ -148,7 +143,6 @@
     flex-flow: row wrap;
     margin: 0 8% 5% 8%;
     /*Color*/
-    div: grey;
 }
 .expirience_time {
     /* Display & Box Model */
@@ -166,7 +160,6 @@
     align-items: flex-end;
     flex: 1 4;
     /*Color*/
-    div: yellow;
 }
 .expirience__then {
     /* Display & Box Model */
@@ -175,7 +168,6 @@
     margin: 0 2%;
     display: flex;
     /*Color*/
-    div: red;
 
 }
 
@@ -184,7 +176,6 @@
     right: 50%;
     /*position: absolute;*/
     /*Color*/
-    div: white;
     color: #808080;
     /*Text*/
     font-size: 16px;
@@ -224,7 +215,6 @@
     transform: scale;
 
     /*Color*/
-    div: brown;
 }
 .expirience__jobdescription {
     /* Positioning */
@@ -235,14 +225,12 @@
     
     
     /*Color;*/
-    div: green;
 }
 .expirience__jobdescription-label {
     /* Display & Box Model */
     display: block;
     padding: 0 0 1% 0;
     /*Color;*/
-    div: lightcyan;
     /*Text*/
     font-size: 30px;
     text-align: center;
@@ -258,7 +246,6 @@
     font-family: "Trebuchet MS";
     font-family: "Trebuchet MS";
     text-transform: uppercase;
-    div: #FF9090
 }
 .expirience__jobdescription-duties {
     /*Color*/
