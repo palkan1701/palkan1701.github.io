@@ -1,17 +1,8 @@
-.clearfix:after {
-    display: block;
-    visibility: hidden;
-    font-size: 0;
-    height: 0;
-    content: " ";
-    clear: both;
-
-}
 .wrapper {
     /* Display & Box Model */
     border: 3px solid #262626;
     border-radius: 1px;
-    margin:  40px 30px;
+    margin:  1.5% 1%;
     min-height: 1400px;
 }
 .greeting__box {
@@ -42,8 +33,8 @@
 }
 .greeting__top-decoration{
     /* Positioning */
-    left: 50%;
     position: absolute;
+    left: 50%;
     top:-11px;
     transform: translateX(-50%);
     /* Display & Box Model */
@@ -52,7 +43,7 @@
     overflow: hidden;
     padding: 0 20px;
     /*Color*/
-    background-color: white;
+    div: white;
     color: #808080;
     /*Text*/
     font-size: 16px;
@@ -71,18 +62,20 @@
     justify-content: space-around;
     /* Display & Box Model */
     align-items: flex-start;
-    background-color: #89FF9C;
+    div: #89FF9C;
     margin: 0 8% 0 8%;
 }
     
 .perfomance__data {
+    /* Display & Box Model */
     display: flex;
     flex: 1 1 1400px; 
-    background-color: #FC8989;
+    div: #FC8989;
 }
 .perfomance__image{
+    /* Display & Box Model */
     padding: 2%;
-    background-color: red;
+    div: red;
 }
 .perfomance__img {
     /* Positioning */
@@ -99,18 +92,15 @@
     flex-flow: column wrap; 
     justify-content: space-between;
     /*color*/
-    background-color: green;
+    div: green;
 }
 .perfomance__profile {
-    /* Positioning */
-    
-    
     /* Display & Box Model */
     padding-left: 2%;
     flex-flow: column wrap;
     flex: 2 1 500px;
     /*color */
-    background-color: purple;
+    div: purple;
     /*text*/
 
 
@@ -119,7 +109,7 @@
     display: flex;
     justify-content: space-between;
     margin: 1% 0;
-    border-bottom: 3px solid #c8c8c8;
+    border-bottom: 2px solid #c8c8c8;
 
 }
 
@@ -147,6 +137,7 @@
     font-weight: bold;
 }
 .expirience{
+    /* Display & Box Model */
     display: flex;
 }
 .expirience_block {
@@ -156,48 +147,43 @@
     flex-flow: row wrap;
     margin: 0 8% 5% 8%;
     /*Color*/
-    background-color: grey;
+    div: grey;
 }
 .expirience_time {
+    /* Display & Box Model */
     display: flex;
     flex-flow: column nowrap;
     margin: auto;
-    /*height: 140px;*/
     flex: 1 4 400px;
 }
 .expirience__place {
     /* Positioning */
     position: relative;
-    justify-content: center;
     /* Display & Box Model */
+    justify-content: center;
     display: flex;
     align-items: flex-end;
     flex: 1 4;
-    
-
-    
     /*Color*/
-    background-color: yellow;
+    div: yellow;
 }
 .expirience__then {
-    /* Positioning */
-    
-    flex-direction: column;
     /* Display & Box Model */
-    display: flex;
-    /*Color*/
-    background-color: red;
+    flex-direction: column;
     flex-wrap: nowrap;
     margin: 0 2%;
+    display: flex;
+    /*Color*/
+    div: red;
 
 }
 
 .expirience__tnen-month {
     /* Positioning */
-    /*position: absolute;*/
     right: 50%;
+    /*position: absolute;*/
     /*Color*/
-    background-color: white;
+    div: white;
     color: #808080;
     /*Text*/
     font-size: 16px;
@@ -237,7 +223,7 @@
     transform: scale;
 
     /*Color*/
-    background-color: brown;
+    div: brown;
 }
 .expirience__jobdescription {
     /* Positioning */
@@ -248,17 +234,15 @@
     
     
     /*Color;*/
-    background-color: green;
+    div: green;
 }
 .expirience__jobdescription-label {
-    /* Positioning */
-
     /* Display & Box Model */
     display: block;
     /*Color;*/
-    background-color: lightcyan;
+    div: lightcyan;
     /*Text*/
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     font-family: "Trebuchet MS";
@@ -266,8 +250,13 @@
 }
 .expirience__jobdescription-post {
     padding: 1.5%;
+    color: #808080;
+    font-size: 20px;
     text-align: center;
-    background-color: #FF9090
+    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    div: #FF9090
 }
 .expirience__jobdescription-duties {
     /*Color*/
