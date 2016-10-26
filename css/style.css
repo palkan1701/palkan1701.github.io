@@ -1,182 +1,132 @@
 .wrapper {
-    /* Display & Box Model */
     border: 3px solid #262626;
     border-radius: 1px;
     margin:  1.5% 1%;
     min-height: 1400px;
 }
-.greeting__box {
-    /* Positioning */
+.greeting-box {
     position: relative;
-    /* Display & Box Model */
     margin: 8% auto 8%;
     max-width: 400px;
     padding: 5px 10px; 
     border: 2px solid #808080;
     white-space: nowrap; 
-    
 }
-.greeting__label {
-    /* Positioning */
+.greeting-box__label {
     position: relative;
-    /* Display & Box Model */
-    /*Text*/
     text-transform: uppercase;
     text-align: center;
     font-size:40px; 
     font-family: "Trebuchet MS";
     font-weight: bold;
     transform: scale;
-    letter-spacing: 80%;
-   
-    
 }
-.greeting__top-decoration{
-    /* Positioning */
+.greeting-box__top-decoration {
     position: absolute;
     left: 50%;
     top:-11px;
     transform: translateX(-50%);
-    /* Display & Box Model */
     display: inline-block;
     max-width: 300px;
     overflow: hidden;
     padding: 0 20px;
-    /*Color*/
     background-color: white;
     color: #808080;
-    /*Text*/
     font-size: 16px;
     font-weight: bold;
     line-height: 20px;
     text-align: center;
     text-overflow: ellipsis;
     text-transform: uppercase;
-
 }
 .perfomance {
-    /* Positioning */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    /* Display & Box Model */
     align-items: flex-start;
     margin: 0 8% 0 8%;
 }
-    
 .perfomance__data {
-    /* Display & Box Model */
     display: flex;
     flex: 1 1 1400px; 
 }
-.perfomance__image{
-    /* Display & Box Model */
+.perfomance-image {
     padding: 2%;
 }
 .perfomance__img {
-    /* Positioning */
     width: auto;
     height: 300px;
 }
-.perfomance__table{
-    /* Positioning */
+.perfomance__table {
     margin: 2%;    
-    /* Display & Box Model */
     height: 300px;
     display: flex;
     border-collapse: collapse;
     flex-flow: column wrap; 
     justify-content: space-between;
-    /*color*/
 }
-.perfomance__profile {
-    /* Display & Box Model */
+.perfomance-profile {
     padding-left: 2%;
     flex-flow: column wrap;
     flex: 2 1 500px;
-    /*color */
-    /*text*/
-
-
 }
-.perfomance__line {
+.perfomance-line {
     display: flex;
     justify-content: space-between;
     margin: 1% 0;
     border-bottom: 2px solid #c8c8c8;
-
 }
 
-.perfomance__columns{
-    /* Display & Box Model */
+.perfomance-line__row {
     padding: 5px 0;
-    /*Text*/
     font-family: "Trebuchet MS"
 }
-.perfomance__profile-title {
-    /* Display & Box Model */
+.perfomance-profile__title {
     display: block;
     padding: 1% 0 0 0;
-    /*Text*/
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
     font-size: 25px;
     text-align: center;
 }
-.perfomance__profile-text {
-    /*Color*/
+.perfomance-profile__text {
     color: #808080;
-    /*Text*/
     font-family: "Trebuchet MS";
     font-weight: bold;
 }
-.expirience{
-    /* Display & Box Model */
+.expirience {
     display: flex;
 }
-.expirience_block {
-    /* Display & Box Model */
+.expirience-block {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
     margin: 0 8% 5% 8%;
-    /*Color*/
 }
-.expirience_time {
-    /* Display & Box Model */
+.expirience__time {
     display: flex;
     flex-flow: column nowrap;
     margin: auto;
     flex: 1 4 400px;
 }
 .expirience__place {
-    /* Positioning */
     position: relative;
-    /* Display & Box Model */
     justify-content: center;
     display: flex;
     align-items: flex-end;
     flex: 1 4;
-    /*Color*/
 }
 .expirience__then {
-    /* Display & Box Model */
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0 2%;
     display: flex;
-    /*Color*/
-
 }
 
 .expirience__tnen-month {
-    /* Positioning */
     right: 50%;
-    /*position: absolute;*/
-    /*Color*/
     color: #808080;
-    /*Text*/
     font-size: 16px;
     font-weight: bold;
     line-height: 20px;
@@ -184,53 +134,32 @@
     text-overflow: ellipsis;
     text-transform:uppercase;
     font-family: "Trebuchet MS"; 
-    letter-spacing: 80%;
     transform: scale;
-    
-    /*Text*/
 }
 .expirience__then-year {
-    /* Display & Box Model */
     display: inline-block;
-    /*Text*/
     font-family: "Trebuchet MS";
     font-size: 40px;
-    letter-spacing: 80%;
     text-align: center;
     text-transform: uppercase;
     transform: scale;
 }
 .expirience__then-present {
-    /* Display & Box Model */
     display: inline-flex;
     align-items: flex-end;
     margin: 0 2%;
-    /*Text*/
     font-family: "Trebuchet MS";
     font-size: 40px;
-    letter-spacing: 80%;
     text-align: center;
     text-transform: uppercase;
     transform: scale;
-
-    /*Color*/
 }
 .expirience__jobdescription {
-    /* Positioning */
-    flex: 2;
-    /* Display & Box Model */
-
     flex: 18 1 750px;
-    
-    
-    /*Color;*/
 }
 .expirience__jobdescription-label {
-    /* Display & Box Model */
     display: block;
     padding: 0 0 1% 0;
-    /*Color;*/
-    /*Text*/
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -247,9 +176,7 @@
     text-transform: uppercase;
 }
 .expirience__jobdescription-duties {
-    /*Color*/
     color: #808080;
-    /*Text*/
     font-family: "Trebuchet MS";
     font-weight: bold;
 }
