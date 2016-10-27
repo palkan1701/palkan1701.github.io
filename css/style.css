@@ -4,7 +4,7 @@
     margin:  1.5% 1%;
     min-height: 1400px;
 }
-.greeting-wrapper {
+.greeting__inner {
     position: relative;
     margin: 8% auto 8%;
     max-width: 400px;
@@ -53,11 +53,11 @@
 .perfomance__image-container {
     padding: 2%;
 }
-.perfomance-img {
+.perfomance__img {
     width: auto;
     height: 300px;
 }
-.perfomance__table-container {
+.perfomance__table {
     margin: 2%;    
     height: 300px;
     display: flex;
@@ -70,14 +70,14 @@
     flex-flow: column wrap;
     flex: 2 1 500px;
 }
-.perfomance__table-line {
+.perfomance__table-row {
     display: flex;
     justify-content: space-between;
     margin: 1% 0;
     border-bottom: 2px solid #c8c8c8;
 }
 
-.table__row {
+.perfomance__table-cell {
     padding: 5px 0;
     font-family: "Trebuchet MS"
 }
@@ -98,7 +98,7 @@
 .expirience {
     display: flex;
 }
-.expirience-wrapper {
+.expirience__inner {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
