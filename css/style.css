@@ -1,12 +1,12 @@
 .wrapper {
     border: 3px solid #262626;
     border-radius: 1px;
-    margin:  1.5% 1%;
+    margin:  30px 20px;
     min-height: 1400px;
 }
 .greeting__inner {
     position: relative;
-    margin: 8% auto 8%;
+    margin: 130px auto;
     max-width: 400px;
     padding: 5px 10px; 
     border: 2px solid #808080;
@@ -44,21 +44,21 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 0 8% 0 8%;
+    margin: 0 160px;
 }
 .perfomance__data {
     display: flex;
     flex: 1 1 1400px; 
 }
 .perfomance__image-container {
-    padding: 2%;
+    padding: 30px;
 }
 .perfomance__img {
     width: auto;
     height: 300px;
 }
 .perfomance__table {
-    margin: 2%;    
+    margin: 30px;    
     height: 300px;
     display: flex;
     border-collapse: collapse;
@@ -66,14 +66,14 @@
     justify-content: space-between;
 }
 .perfomance__profile-cotainer {
-    padding-left: 2%;
+    padding-left: 30px;
     flex-flow: column wrap;
     flex: 2 1 500px;
 }
 .perfomance__table-row {
     display: flex;
     justify-content: space-between;
-    margin: 1% 0;
+    margin: 5px 0;
     border-bottom: 2px solid #c8c8c8;
 }
 
@@ -83,7 +83,7 @@
 }
 .profile__title {
     display: block;
-    padding: 1% 0 0 0;
+    padding: 30px 0 0 0;
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
@@ -102,7 +102,7 @@
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    margin: 0 8% 5% 8%;
+    margin: 0 160px 100px;
 }
 .expirience__time {
     display: flex;
@@ -120,7 +120,7 @@
 .expirience__then {
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 0 2%;
+    margin: 0 9px;
     display: flex;
 }
 
@@ -147,27 +147,27 @@
 .expirience__then-present {
     display: inline-flex;
     align-items: flex-end;
-    margin: 0 2%;
+    margin: 0 9px;
     font-family: "Trebuchet MS";
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     transform: scale;
 }
-.expirience__jobdescription {
+.expirience__job-description {
     flex: 18 1 750px;
 }
-.expirience__jobdescription-label {
+.expirience__job-description-label {
     display: block;
-    padding: 0 0 1% 0;
+    padding: 0 0 13px 0;
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
 }
-.expirience__jobdescription-post {
-    padding: 1.5%;
+.expirience__job-description-post {
+    padding: 6px;
     color: #808080;
     font-size: 20px;
     text-align: center;
@@ -175,7 +175,7 @@
     font-family: "Trebuchet MS";
     text-transform: uppercase;
 }
-.expirience__jobdescription-duties {
+.expirience__job-description-duties {
     color: #808080;
     font-family: "Trebuchet MS";
     font-weight: bold;
