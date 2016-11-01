@@ -51,19 +51,11 @@
     flex: 1 1 1400px; 
 }
 .perfomance__image-container {
-    padding: 30px;
+    padding: 0 30px;
 }
 .perfomance__img {
     width: auto;
     height: 300px;
-}
-.perfomance__table {
-    margin: 30px;    
-    height: 300px;
-    display: flex;
-    border-collapse: collapse;
-    flex-flow: column wrap; 
-    justify-content: space-between;
 }
 .perfomance__profile-cotainer {
     padding-left: 30px;
@@ -83,7 +75,6 @@
 }
 .profile__title {
     display: block;
-    padding: 30px 0 0 0;
     text-transform: uppercase;
     font-family: "Trebuchet MS";
     font-weight: bold;
@@ -94,6 +85,7 @@
     color: #808080;
     font-family: "Trebuchet MS";
     font-weight: bold;
+    text-align: justify;
 }
 .expirience {
     display: flex;
@@ -172,11 +164,66 @@
     font-size: 20px;
     text-align: center;
     font-family: "Trebuchet MS";
-    font-family: "Trebuchet MS";
     text-transform: uppercase;
 }
 .expirience__job-description-duties {
     color: #808080;
     font-family: "Trebuchet MS";
     font-weight: bold;
+    text-align: justify;
 }
+.perfomance__table {
+    height: 300px;
+    max-width: 550px;
+    display: flex;
+    border-collapse: collapse;
+    flex-flow: row nowrap; 
+    justify-content: space-between;
+    flex: 1 3 200px ;
+    padding: 0 30px;
+}
+.perfomance__table-left {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex: 2 1 300px;
+
+}
+.perfomance__table-right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 300px;
+    
+}
+
+.perfomance__table-cell {
+    margin: 5px 0;
+    border-bottom: 2px solid #c8c8c8;
+    padding: 5px 5px;
+    font-family: "Trebuchet MS";
+    white-space: nowrap;
+    
+
+
+}
+.perfomance__profile-cotainer {
+    padding-left: 30px;
+    flex-flow: column wrap;
+    flex: 2 1 500px;
+}
+.perfomance__table-right .perfomance__table-cell {
+    text-align: center;
+}
+@media  only screen and (max-width: 1680px){
+    .greeting__inner {
+        margin: 100px auto;
+    }
+}
+@media  only screen and (max-width: 1280px){
+    .greeting__inner {
+        margin: 60px auto;
+    }
+    .perfomance__image-container{
+        padding: 0;
+    }
