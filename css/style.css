@@ -187,13 +187,16 @@
     flex-direction: column;
     height: 300px;
     flex: 2 1 300px;
-    /*align-items: flex-start;*/
+    align-items: stretch;
+    
 }
-.perfomance__table-column:not(first-of-type) {
+.perfomance__table-column:not(:first-of-type) {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     height: 300px;
+    text-align: center;
+    
     
 }
 
@@ -203,19 +206,13 @@
     padding: 5px 5px;
     font-family: "Trebuchet MS";
     white-space: nowrap;
-    text-align: center;
-    
-
-
 }
 .perfomance__profile-cotainer {
     padding-left: 30px;
     flex-flow: column wrap;
     flex: 2 1 500px;
 }
-/*.perfomance__table-column .perfomance__table-cell {*/
-    /*text-align: center;*/
-}
+
 @media  only screen and (max-width: 1680px){
     .greeting__inner {
         margin: 100px auto;
