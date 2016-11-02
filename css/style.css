@@ -17,7 +17,7 @@
     text-transform: uppercase;
     text-align: center;
     font-size:40px; 
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-weight: bold;
     transform: scale;
 }
@@ -32,6 +32,7 @@
     padding: 0 20px;
     background-color: white;
     color: #808080;
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: bold;
     line-height: 20px;
@@ -43,7 +44,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     margin: 0 160px;
 }
 .perfomance__data {
@@ -71,19 +72,19 @@
 
 .perfomance__table-cell {
     padding: 5px 0;
-    font-family: "Trebuchet MS"
+    font-family: "Roboto"
 }
 .profile__title {
     display: block;
     text-transform: uppercase;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-weight: bold;
     font-size: 25px;
     text-align: center;
 }
 .profile__text {
     color: #808080;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-weight: bold;
     text-align: justify;
 }
@@ -125,12 +126,12 @@
     text-align: center;
     text-overflow: ellipsis;
     text-transform:uppercase;
-    font-family: "Trebuchet MS"; 
+    font-family: "Roboto"; 
     transform: scale;
 }
 .expirience__then-year {
     display: inline-block;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
@@ -140,7 +141,7 @@
     display: inline-flex;
     align-items: flex-end;
     margin: 0 9px;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
@@ -155,7 +156,7 @@
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-weight: bold;
 }
 .expirience__job-description-post {
@@ -163,12 +164,12 @@
     color: #808080;
     font-size: 20px;
     text-align: center;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     text-transform: uppercase;
 }
 .expirience__job-description-duties {
     color: #808080;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     font-weight: bold;
     text-align: justify;
 }
@@ -204,7 +205,7 @@
     margin: 5px 0;
     border-bottom: 2px solid #c8c8c8;
     padding: 5px 5px;
-    font-family: "Trebuchet MS";
+    font-family: "Roboto";
     white-space: nowrap;
 }
 .perfomance__profile-cotainer {
@@ -212,7 +213,6 @@
     flex-flow: column wrap;
     flex: 2 1 500px;
 }
-
 @media  only screen and (max-width: 1680px){
     .greeting__inner {
         margin: 100px auto;
