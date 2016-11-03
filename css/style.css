@@ -18,7 +18,7 @@
     text-align: center;
     font-size:40px; 
     font-family: "Roboto";
-    font-weight: bold;
+    font-weight: 100;
     transform: scale;
 }
 .greeting__top-decoration {
@@ -57,6 +57,8 @@
 .perfomance__img {
     width: auto;
     height: 300px;
+    border: 3px solid #808080;
+    padding: 15px;
 }
 .perfomance__profile-cotainer {
     padding-left: 30px;
@@ -81,11 +83,13 @@
     font-weight: bold;
     font-size: 25px;
     text-align: center;
+    font-weight: 400;
+    text-shadow: 0 3px 0 #c8c8c8;
 }
 .profile__text {
     color: #808080;
     font-family: "Roboto";
-    font-weight: bold;
+    font-weight: 400;
     text-align: justify;
 }
 .expirience {
@@ -136,6 +140,7 @@
     text-align: center;
     text-transform: uppercase;
     transform: scale;
+    font-weight: 200;
 }
 .expirience__then-present {
     display: inline-flex;
@@ -146,6 +151,7 @@
     text-align: center;
     text-transform: uppercase;
     transform: scale;
+    font-weight: 200;
 }
 .expirience__job-description {
     flex: 18 1 750px;
@@ -157,7 +163,7 @@
     text-align: center;
     text-transform: uppercase;
     font-family: "Roboto";
-    font-weight: bold;
+    font-weight: 400;
 }
 .expirience__job-description-post {
     padding: 6px;
@@ -170,7 +176,7 @@
 .expirience__job-description-duties {
     color: #808080;
     font-family: "Roboto";
-    font-weight: bold;
+    font-weight: 400;
     text-align: justify;
 }
 .perfomance__table {
@@ -207,6 +213,7 @@
     padding: 5px 5px;
     font-family: "Roboto";
     white-space: nowrap;
+    font-weight: 400;
 }
 .perfomance__profile-cotainer {
     padding-left: 30px;
