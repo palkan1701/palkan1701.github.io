@@ -2,12 +2,15 @@
     border: 3px solid #262626;
     border-radius: 1px;
     margin:  30px 20px;
-    min-height: 1400px;
+    /*min-height: 1400px;*/
 }
 .frame {
-    min-width: 400px;
-    min-height: 400px;
+    text-align: center;
 
+}
+.Sirv {
+	width: 226px;
+    border: white;
 }
 .greeting__inner {
     position: relative;
@@ -56,6 +59,7 @@
     padding-right: 30px;
     flex-flow: column wrap;
     flex: 1 1 300px;
+    margin: 0 0 100px 0;
 }
 .profile__title {
     display: block;
