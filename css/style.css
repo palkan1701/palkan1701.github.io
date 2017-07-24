@@ -1,1 +1,75 @@
 
+.wrapper {
+    border: 3px solid #262626;
+    border-radius: 1px;
+    margin:  30px 20px;
+    min-height: 1400px;
+}
+.Sirv {
+    min-width: 400px;
+    min-height: 400px;
+    background: red;
+
+}
+.greeting__inner {
+    position: relative;
+    margin: 130px auto;
+    max-width: 400px;
+    padding: 5px 10px; 
+    border: 2px solid #808080;
+    white-space: nowrap; 
+}
+.greeting__label {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:40px; 
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    transform: scale;
+}
+.greeting__top-decoration {
+    position: absolute;
+    left: 50%;
+    top:-11px;
+    transform: translateX(-50%);
+    display: inline-block;
+    max-width: 300px;
+    overflow: hidden;
+    padding: 0 20px;
+    background-color: white;
+    color: #808080;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+.perfomance {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 10%;
+}
+
+.perfomance__profile-cotainer {
+    padding-right: 30px;
+    flex-flow: column wrap;
+    flex: 1 1 300px;
+}
+.profile__title {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.profile__text {
+    color: #808080;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    text-align: justify;
+}
